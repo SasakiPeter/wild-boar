@@ -2,26 +2,14 @@
 title: About
 ---
 
-This is a demo site of the [HeroBlog](https://github.com/greglobinski/gatsby-starter-hero-blog), a [GatsbyJS](https://www.gatsbyjs.org/) starter.
+まずはじめに、このブログはとても主観的でほとんどメモみたいなものばかりですが、人に分かりやすく伝える練習と思って、ときたま人に見られることを想定して書くこともあります。
 
-### Features:
+私は、薬学生として日々学生生活を送っていますが、ひょんなことから始めたプログラミングにとり憑かれ、活動時間の大半は何かしらのコードを書いています。
 
-* Easy editable content in **Markdown** files (posts, pages and parts)
-* **CSS** with `styled-jsx` and `PostCSS`
-* **SEO** (sitemap generation, robot.txt, meta and OpenGraph Tags)
-* **Social** sharing (Twitter, Facebook, Google, LinkedIn)
-* **Comments** (Facebook)
-* **Images** lazy loading and `webp` support (gatsby-image)
-* Post **categories** (category based post list)
-* Full text **searching** (Algolia)
-* **Contact** form (Netlify form handling)
-* **RSS** feed
-* 100% **PWA** (manifest.webmanifest, offline support, favicons)
-* Google **Analytics**
-* App **favicons** generator (node script)
-* Easy customizable base **styles** via `theme` object generated from `yaml` file (fonts, colors, sizes)
-* React **v.16** (gatsby-plugin-react-next)
-* **Components** lazy loading (social sharing)
-* **ESLint** (google config)
-* **Prettier** code styling
-* Webpack `BundleAnalyzerPlugin`
+興味の幅も広く、フロントエンド、バックエンド、インフラ、ネイテイブアプリ、機械学習、ゲーム制作、電子工作なんでもやってみたいと思い、大体のことに手を出してきました。
+
+その中でも機械学習を極めたいと思い、最近kaggleを始めました。
+
+今はまだ過去コンペにlate submitを出して、一人満足するレベルですが、とりあえず開催中のコンペへのsubmitを目指して頑張りたい所存です。
+
+よろしくお願いします。
