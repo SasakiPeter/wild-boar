@@ -42,6 +42,8 @@ const Contact = props => {
       .then(() => {
         console.log("Form submission success");
         navigate("/success");
+        console.log(values.name, values.email, values.message);
+        // make sure send a email from my email address to this address.
       })
       .catch(error => {
         console.error("Form submission error:", error);

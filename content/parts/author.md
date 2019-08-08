@@ -2,4 +2,6 @@
 title: author
 ---
 
-**Mr. Gatsby** Proin ornare ligula eu tellus tempus elementum. Aenean [bibendum](/) iaculis mi, nec blandit lacus interdum vitae. Vestibulum non nibh risus, a scelerisque purus. Blandit lacus interdum vitae. Vestibulum non nibh risus, a scelerisque purus.
+**Sasaki Peter** A pharmaceutical student.
+Programming is a part of life for him.
+To be a data scientist, he is trying to win a prize in a kaggle competition.

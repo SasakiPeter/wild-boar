@@ -1,4 +1,4 @@
-#!bin/sh
+#!/usr/local/bin/zsh
 
 # Exit the script on any command with non 0 return code
 set -e
