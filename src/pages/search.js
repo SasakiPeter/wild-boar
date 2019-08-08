@@ -28,7 +28,7 @@ const SearchPage = props => {
               <AlgoliaIcon />
             </div>
 
-            <Search algolia={algolia} theme={theme} />
+            {/* <Search algolia={algolia} theme={theme} /> */}
           </Article>
         )}
       </ThemeContext.Consumer>
