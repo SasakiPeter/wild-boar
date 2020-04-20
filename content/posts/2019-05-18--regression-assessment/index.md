@@ -9,7 +9,7 @@ author: sasaki peter
 
 ## 決定係数 R^2
 
-定義が色々あるのかもしれないが、最もよくみる評価指標
+定義が色々あるのかもしれないが、回帰で最もよくみる評価指標。相関係数とは違う。
 
 分類器でいうところのROC-AUCのような立ち位置だと勝手に思っている。
 
@@ -18,12 +18,10 @@ author: sasaki peter
 1だと、完全に観測値に予測値がフィットしていることになるので、オーバフィットしているかもしれない。
 
 ```python
-from sklearn.metrics import r2_score, make_scorer
+from sklearn.metrics import r2_score
 
-scorer = makescorer(r2_score)
+r2 = r2_score(y_true, y_pred)
 ```
-こんな感じにして`GridSearchCV`にでも突っ込めばいいのかな。
-
 
 $$
 R^2 = 1 - \sum^n_{i=1} \frac{(y_i - \hat{y_i})^2} {(y_i - \bar{y})^2} = \sum^n_{i=1} \frac{(\hat{y_i} - \bar{y})^2}{(y_i - \bar{y})^2}
@@ -36,18 +34,20 @@ MSE(y, \hat{y}) = \frac{1}{n}\sum^n_{i=1}(y_i - \hat{y_i})^2
 $$
 
 残差平方和の平均。  
-よくわかった。
 
 ```python
 from sklearn.metrics import mean_square_error
 
-MSE = mean_square_error(y_test, y_pred)
+MSE = mean_square_error(y_true, y_pred)
 ```
 
-MAEってやつもあるらしい。
+MAEというのもある。
 
 ## 二乗平均平方根誤差(RMSE)
 
-
 残差平方和の平均にルートとったやつ。
+
+これらの指標は全て、目的変数の分布が正規分布している時によく用いられる。対数分布している時は、目的変数を対数変換してRMSEで評価するか、評価関数自体をRMSLEにするという２つの方針がある。
+
+t
 

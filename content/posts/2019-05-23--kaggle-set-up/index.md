@@ -163,7 +163,7 @@ import pdb
 pdb.set_trace()
 ```
 
-デバッグ中は`step`や`p hoge`を使う
+デバッグ中は`step`や`p hoge`を使う。
 
-`l`も使える
+`l`も使える。
 

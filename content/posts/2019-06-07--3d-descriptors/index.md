@@ -1,6 +1,6 @@
 ---
 title: 3D記述子について
-category: "chemo-infomatics"
+category: "chemo-informatics"
 cover: chemical.jpg
 author: sasaki peter
 ---

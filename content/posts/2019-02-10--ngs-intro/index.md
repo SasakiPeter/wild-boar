@@ -808,38 +808,3 @@ $ gzip -dc DRR024501sub_2.fastq.gz | fastqc stdin --nogroup;mkdir DRR024501sub_2
 ```
 
 
-
-
-
-### 独り言
-
-気づいたけど、今まで作成したファイルは標準出力受け入れられる感じではなかった。
-
-```shell
-$ python hoge.py fuga.txt
-```
-
-っていう形式でしか受け入れられない風に書いていたってことは、標準入力を受け付けてないから、パイプで繋げないし、用をなさない気がする。
-
-```python
-# 標準出力でも、ファイル形式でも受け入れられる書き方ってどんな感じ？
-import argparse
-
-parser = argparse.ArgumentParser('hoge')
-parser.add_argument(
-	'hoge_file',
-	type=argparse.FileType('r')
-)
-args = parser.parse_args()
-f = args.hoge_file
-```
-こんな感じで`argparse`使えばいいんじゃないすか。
-
-
-
-
-
-### アセンブリ
-
-#### Velvet
-

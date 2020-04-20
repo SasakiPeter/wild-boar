@@ -69,7 +69,7 @@ const Bodytext = props => {
             border-radius: 0.1em;
           }
 
-          :gloabl(table) {
+          :global(table) {
             margin: 0.7em 0;
             width: 100%;
             border-collapse: separate;

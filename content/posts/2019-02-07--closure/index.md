@@ -1,6 +1,6 @@
 ---
 title: クロージャって何？
-category: "python"
+category: "Python"
 cover: close.jpg
 author: sasaki peter
 ---
